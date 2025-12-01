@@ -1,5 +1,7 @@
 #!/usr/bin/env rdmd
 
+// naive approach
+
 import std.conv;
 import std.file;
 import std.stdio;
