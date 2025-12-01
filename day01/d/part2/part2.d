@@ -28,10 +28,6 @@ void main()
                 {
                     value = 99;
                 }
-                if (value == 0)
-                {
-                    ++zeros;
-                }
             }
             else // if dir == 'R'
             {
@@ -40,10 +36,10 @@ void main()
                 {
                     value = 0;
                 }
-                if (value == 0)
-                {
-                    ++zeros;
-                }
+            }
+            if (value == 0)
+            {
+                ++zeros;
             }
         }
     } // process lines
