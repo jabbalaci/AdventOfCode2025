@@ -8,4 +8,4 @@ p2:
 	./part2.py
 
 mypy:
-	mypy --config-file mypy.ini . --exclude proba/
+	mypy --config-file mypy.ini . --exclude extra/
