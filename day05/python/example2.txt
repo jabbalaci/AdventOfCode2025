@@ -1,0 +1,7 @@
+3-5
+4-4
+8-9
+16-20
+
+own example
+answer: 10 fresh, 8 are outside of any interval
