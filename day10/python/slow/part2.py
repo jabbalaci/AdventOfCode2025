@@ -81,9 +81,9 @@ class Machine:
 
 
 def main() -> None:
-    # fname = "example.txt"
+    fname = "example.txt"
+    # fname = "sorted.txt"
     # fname = "input.txt"
-    fname = "sorted.txt"
 
     lines: list[str] = helper.read_lines(fname)
     total = 0
