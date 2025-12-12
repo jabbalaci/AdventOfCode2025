@@ -16,6 +16,7 @@ We have an area with width 47 and height 48.
 The sum of the boxes is 347.
 
 Each box has dimension 3x3. The shape doesn't matter!
+And ignore the example. You don't need to rotate and/or flip the boxes.
 
 You start placing the boxes in the area.
 When the first row is filled, you continue in the next row.
