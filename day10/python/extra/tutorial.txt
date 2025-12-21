@@ -1,0 +1,5 @@
+Here is a tutorial for Part 2:
+
+https://old.reddit.com/r/adventofcode/comments/1pp98cr/2025_day_10_part_2_solution_without_using_a_3rd/
+
+I solved Part 2 but it's too slow. A better approach is needed.
