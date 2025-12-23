@@ -10,7 +10,7 @@ program part1
    integer :: zeros = 0
 
    ! Open the file
-   open(newunit=unit, file=fname, status="old", action="read", iostat=ios)
+   open (newunit=unit, file=fname, status="old", action="read", iostat=ios)
    if (ios /= 0) then
       print *, "Error: cannot open file"
       stop 1
@@ -18,12 +18,12 @@ program part1
 
    ! Loop over lines
    do
-      read(unit, '(a)', iostat=ios) line
+      read (unit, '(a)', iostat=ios) line
       if (ios /= 0) then
          exit
       end if
       direction = line(1:1)
-      read(line(2:), *) steps
+      read (line(2:), *) steps
       do i = 1, steps
          if (direction == 'L') then
             value = value - 1
@@ -42,4 +42,7 @@ program part1
       end if
    end do
    print '(i0)', zeros
+
+   ! Close file
+   close (unit)
 end program part1
